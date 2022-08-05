@@ -67,7 +67,30 @@ li
     margin: 0;
     padding-top: 80px;
     padding-bottom: 80px;
-    
+       
+}
+
+#portfolio
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    padding-top:80px;
+}
+
+#portfolio h2
+{
+    color: #fff;
+    font-size: 35px;
+}
+
+#portfolio p
+{
+    color: #fff;
+    font-size: 20px;
+    font-style:italic;
 }
 
 @media screen and (max-width: 800px) {
