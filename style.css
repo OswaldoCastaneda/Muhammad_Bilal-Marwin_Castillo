@@ -1,0 +1,35 @@
+#navbar
+{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #be3144;
+}
+
+.navbar-list
+{
+    display:flex;
+    margin-right: 5%;
+    list-style: none;
+}
+
+li
+{
+    padding-left: 15px;
+}
+
+.navbar-list a
+{
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-list a:hover
+{
+    background: #45567d;
+}
