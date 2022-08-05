@@ -51,8 +51,13 @@ li
     padding-bottom: 120px;
     
 }
+#welcome-section h1{
+    font-size: 35px;
+    margin-bottom: 0;
+}
 #welcome-section p{
     color: #be3144;
+    font-size: 20px;
 }
 #projects{
     
@@ -69,6 +74,9 @@ li
     padding-bottom: 80px;
        
 }
+#project-title{
+    font-size: 35px;
+}
 
 #portfolio
 {
@@ -76,14 +84,17 @@ li
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    background-color: #777;
+    background-color: #303841;
     padding-top:80px;
+    padding-bottom: 80px;
+    border-bottom: 5px solid darkred;
 }
 
 #portfolio h2
 {
     color: #fff;
     font-size: 35px;
+    margin-bottom: 0;
 }
 
 #portfolio p
@@ -91,6 +102,39 @@ li
     color: #fff;
     font-size: 20px;
     font-style:italic;
+}
+
+#portfolio a img{
+    margin-left: 30px;
+}
+
+#portfolio-link a{
+    color: aqua;
+    font-size: large;
+    text-decoration: none;
+}
+#portfolio-link a:hover{
+    font-size: x-large;
+}
+
+#portfolio a img:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+#Developers{
+    background-color: #303841;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+#Developers p{
+    text-align: right;
+    padding-right: 30px;
+    font-size: medium;
 }
 
 @media screen and (max-width: 800px) {
